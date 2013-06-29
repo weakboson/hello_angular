@@ -3,7 +3,7 @@ var nws = require('node-web-server');
 nws.run({
   host: "localhost",
   port: 8080,
-  docRoot: "www"
+  docRoot: "htdocs"
 }, __dirname);
 console.log(__dirname);
 // 10秒後に停止
