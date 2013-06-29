@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en" ng-app>
+  <head>
+    <meta charset="utf-8">
+    <title>Practice.2 - Controller</title>
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/zenburn.css" />
+    <script src="http://code.angularjs.org/angular-1.0.1.min.js"></script>
+    <script src="../javascripts/jquery-2.0.2.min.js"></script>
+    <script src="controllers.js"></script>
+  </head>
+  <body ng-controller="PersonListCtrl">
+    <dl ng-repeat="person in persons" ng-controller="PersonListItemCtrl">
+      <dt>{{person.name}}</dt>
+      <dd>@{{person.handle}}</dd>
+      <dd><input type="button" value="like" ng-click="addLike()" />{{person.like}}</dd>
+    </dl>
+  </body>
+</html>
