@@ -40,3 +40,33 @@
 	"url": "/step2/colors.json",
 	"statusCode": 200
 }
+,{
+	"date": "Sun, 30 Jun 2013 02:01:43 +0900",
+	"method": "GET",
+	"url": "/step2/index.html",
+	"statusCode": 200
+}
+,{
+	"date": "Sun, 30 Jun 2013 02:01:44 +0900",
+	"method": "GET",
+	"url": "/css/reset.css",
+	"statusCode": 200
+}
+,{
+	"date": "Sun, 30 Jun 2013 02:01:44 +0900",
+	"method": "GET",
+	"url": "/css/zenburn.css",
+	"statusCode": 200
+}
+,{
+	"date": "Sun, 30 Jun 2013 02:01:44 +0900",
+	"method": "GET",
+	"url": "/step2/controllers.js",
+	"statusCode": 200
+}
+,{
+	"date": "Sun, 30 Jun 2013 02:01:44 +0900",
+	"method": "GET",
+	"url": "/step2/colors.json",
+	"statusCode": 200
+}
