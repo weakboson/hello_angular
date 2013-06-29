@@ -1,0 +1,12 @@
+{
+	"date": "Sun, 30 Jun 2013 01:57:41 +0900",
+	"method": "GET",
+	"url": "/step2/index.html",
+	"statusCode": 404
+}
+,{
+	"date": "Sun, 30 Jun 2013 01:57:43 +0900",
+	"method": "GET",
+	"url": "/favicon.ico",
+	"statusCode": 404
+}
