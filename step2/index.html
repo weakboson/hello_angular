@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en" ng-app>
+  <head>
+    <meta charset="utf-8">
+    <title>Step.2 - Controller</title>
+    <script src="http://code.angularjs.org/angular-1.0.1.min.js"></script>
+    <script src="controller.js"></script>
+  </head>
+  <body ng-controller="ColorListCtrl">
+    <div ng-repeat="color in colors" class="colorblock" style="background-color:{{color.color}};">
+      <div class="colortitle">{{color.name}} {{color.kana}}</div>
+    </div>
+  </body>
+</html>
